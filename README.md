@@ -19,7 +19,6 @@
 * [🛠️ SQL Skills Demonstrated](#️-sql-skills-demonstrated)
 * [💡 Key Insights](#-key-insights-data-driven-truths)
 * [🔄 Project Workflow](#-project-workflow)
-* [📁 Folder Structure](#-folder-structure)
 * [🚀 How to Run This Project](#how-to-run-this-project)
 * [🛠️ Tools & Technologies Used](#tools--technologies-used)
 * [👨‍💻 Author & Contact](#author--contact)
@@ -130,38 +129,12 @@ The following insights were derived directly from running the analytic queries a
 
 ## 🔄 Project Workflow
 
-┌─────────────────┐      ┌─────────────────┐      ┌─────────────────┐
-│ 1. Collection   ├─────►│ 2. Inspection   ├─────►│ 3. Engineering  │
-│ (Raw CSV Data)  │      │ (Schema Audit)  │      │ (DDL Validation)│
-└─────────────────┘      └─────────────────┘      └────────┬────────┘
-│
-┌─────────────────┐      ┌─────────────────┐               │
-│ 6. Insights     │◄─────┤ 5. Extraction   │◄──────────────┘
-│ (LTV & Velocity)│      │ (DML Execution) │
-└─────────────────┘      └─────────────────┘
-
 1.  **Data Collection:** Gather unstructured operational inputs mapping to independent CSV blocks tracking customer profiles, sales receipts, and book metadata.
 2.  **Data Integrity Audit:** Inspect constraints, structural datatypes, layout formatting anomalies, and target row counts within datasets.
 3.  **Database Engineering:** Compose DDL queries containing implicit `DROP TABLE IF EXISTS` protocols, map column datatypes, and set key structures.
 4.  **Data Import Processing:** Standardize data ingestion pathways into local MySQL containers ensuring reference integrity.
 5.  **SQL Analytic Extraction:** Apply optimized business question scripts matching core operations scenarios.
 6.  **Business Intelligence Generation:** Translate pure relational query returns into digestible summaries to support strategic executive reporting.
-
----
-
-## 📁 Folder Structure
-
-OnlineBookstore-Analytics/
-│
-├── datasets/
-│   ├── Books.csv              # Catalog inventory information profiles
-│   ├── Customers.csv          # Client registration and geographic data
-│   └── Orders.csv             # Raw point-of-sale receipt ledgers
-│
-├── sql_queries/
-│   └── MySQL project.sql      # Database initialization, DDL tables, and analytical statements
-│
-└── README.md                  # Comprehensive portfolio documentation showcase
 
 ---
 
@@ -213,7 +186,7 @@ Uncomment or run any targeting analytics query line item inside the script file 
 
 ---
 
-<a id="author--contact"/>
+<a id="author--contact"></a>
 ## 👨‍💻 Author & Contact
 
 **Author:** Vivek Deore
