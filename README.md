@@ -176,13 +176,13 @@ Uncomment or run any targeting analytics query line item inside the script file 
 
 <a id="tools--technologies-used"></a>
 ## 🛠️ Tools & Technologies Used
-### Database Engine: MySQL Server 8.0+
+Database Engine: MySQL Server 8.0+
 
-### Query Interface: MySQL Workbench / Structured Query Language (SQL)
+Query Interface: MySQL Workbench / Structured Query Language (SQL)
 
-### Data Layout Layer: Comma-Separated Values (CSV Format)
+Data Layout Layer: Comma-Separated Values (CSV Format)
 
-### Version Distribution System: Git & GitHub Portal Showcase
+Version Distribution System: Git & GitHub Portal Showcase
 
 ---
 
